@@ -22,3 +22,8 @@ Recall that there are no trainable parameters in max-pooling layers and ReLU act
 * Linear (2-10): (120+1)      x 84 = 10164
 * Linear (2-12): (84+1)       x 10 = 850
  
+### Graph
+<div align="center"><img src="graph1.jpg" width="700"></div>
+<p align="center">Train & Test Loss</p>  
+<div align="center"><img src="graph2.jpg" width="700"></div>
+<p align="center">Train & Test Accuracy</p>  
