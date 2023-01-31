@@ -11,6 +11,33 @@
 <p></p>
 LeNet-5 is a very efficient convolutional neural network for handwritten character recognition. It is a small network that has 7 layers and contains basic modules of deep learning: convolutional layer, pooling layer and fully connected layer. Moreover, LeNet-5 uses average pooling and tanh activation function. However, in this project I will use max-pooling and ReLU activation function. The rest of the configurations are the similar to base architecture.
 
+```shell
+class LeNet(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.network = nn.Sequential(
+            nn.Conv2d(in_channels = 1, out_channels = 6, kernel_size = 5),
+            nn.ReLU(),
+            nn.MaxPool2d(2, stride = 2),
+            
+            nn.Conv2d(in_channels = 6, out_channels = 16, kernel_size = 5),
+            nn.ReLU(),
+            nn.MaxPool2d(2, stride = 2),
+            
+            nn.Conv2d(in_channels = 16, out_channels = 120, kernel_size = 5),
+            nn.ReLU(),
+            
+            nn.Flatten(),
+            
+            nn.Linear(120, 84),
+            nn.ReLU(),
+            
+            nn.Linear(84,10))
+    
+    def forward(self, x):
+        x = self.network(x)
+        return F.softmax(x, dim=1)  
+```
 <h2 align="center">LeNet-5 Parameters</h1>
 <div align="center"><img src="pictures/lenet_layer.jpg" width="500"></div>
 
