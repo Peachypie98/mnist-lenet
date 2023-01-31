@@ -15,7 +15,7 @@ LeNet-5 is a very efficient convolutional neural network for handwritten charact
 <div align="center"><img src="pictures/lenet_layer.jpg" width="500"></div>
 
 ### How to calculate parameters for each layer
-Before we start, there are no trainable parameters in max-pooling layers and ReLU activation functions
+Recall that there are no trainable parameters in max-pooling layers and ReLU activation functions
 * Conv2d (2-1):  ((5x5x1)+1)  x 6 = 156
 * Conv2d (2-4):  ((5x5x6)+1)  x 16 = 2416
 * Conv2d (2-7):  ((5x5x16)+1) x 120 = 48120
