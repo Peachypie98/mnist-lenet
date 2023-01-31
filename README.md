@@ -51,12 +51,12 @@ Recall that there are no trainable parameters in max-pooling layers and ReLU act
 * Linear (2-10): (120+1)      x 84 = 10164
 * Linear (2-12): (84+1)       x 10 = 850
  
-### Graph
+### Graphs
 <p align="center" width="120%">
     <img width="32%" img src="pictures/graph1.png", height = 300, width = "350"> 
     <img width="32%" img src="pictures/graph2.png", height = 300, width = "350"> 
 </p>
-By looking at those graphs, we can get very high accuracy in few epochs.
+As we can see, we can get very high accuracy in just few epochs.
 
 ## Demo
 Download the MNIST-LeNet-5.ipynb file I provided to you and try run it using jupyter notebook
