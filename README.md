@@ -6,6 +6,6 @@
 <p align="center"> MNIST Dataset </p>
 
 ## LeNet-5 Architecture
-<div align="center"><img src="pictures/lenet-5.jpg" width="500"></div>
+<div align="center"><img src="pictures/lenet-5.jpg" width="700"></div>
 <p align="center"> Original Architecture</p>
 
