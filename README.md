@@ -52,7 +52,7 @@ Recall that there are no trainable parameters in max-pooling layers and ReLU act
 * Linear (2-12): (84+1)       x 10 = 850
  
 ### Graph
-<p align="center" width="100%">
+<p align="center" width="120%">
     <img width="32%" img src="pictures/graph1.png", height = 300, width = "350"> 
     <img width="32%" img src="pictures/graph2.png", height = 300, width = "350"> 
 </p>
