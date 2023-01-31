@@ -4,15 +4,10 @@
 * I will use slightly modified LeNet-5 Model to train these images and resized the images to 32x32 pixels.
 <div align="center"><img src="pictures/mnist_data.jpg" width="350"></div>
 <div class="image-wrapper" >
-  {% if include.url %}
-  <a href="{{ include.url }}" title="{{ include.title }}" target="_blank">
   {% endif %}
-      <img src="{{ site.url }}/{{ include.img }}" alt="{{ include.title }}"/>
-  {% if include.url %}
-  </a>
-  {% endif %}
+      <img src="pictures/mnist_data.jpg" alt="{{ include.title }}"/>
   {% if include.caption %}
-      <p class="image-caption">{{ include.caption }}</p>
+      <p class="test">{{ include.caption }}</p>
   {% endif %}
 </div>
 
