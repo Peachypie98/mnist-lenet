@@ -24,6 +24,6 @@ Recall that there are no trainable parameters in max-pooling layers and ReLU act
  
 ### Graph
 <p align="center" width="100%">
-    <img width="32%" img src="pictures/graph1.png", width = "300"> 
-    <img width="32%" img src="pictures/graph2.png",width = "300"> 
+    <img width="32%" img src="pictures/graph1.png", width = "350"> 
+    <img width="32%" img src="pictures/graph2.png",width = "350"> 
 </p>
