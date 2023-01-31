@@ -3,13 +3,6 @@
 * The MNIST dataset is a large database of handwritten digits that is commonly used for training various image processing systems. It contains 60,000 images of training set and 10,000 images of test set. The handwritten digit images have been size-normalized and centered in a fixed size of 28×28 pixels. 
 * I will use slightly modified LeNet-5 Model to train these images and resized the images to 32x32 pixels.
 <div align="center"><img src="pictures/mnist_data.jpg" width="350"></div>
-<div class="image-wrapper" >
-  {% endif %}
-      <img src="pictures/mnist_data.jpg" alt="{{ include.title }}"/>
-  {% if include.caption %}
-      <p class="test">{{ include.caption }}</p>
-  {% endif %}
-</div>
 
 ## Modified LeNet-5 Architecture
 <div align="center"><img src="pictures/lenet-5.jpg" width="350"></div>
