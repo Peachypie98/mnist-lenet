@@ -12,4 +12,4 @@
 LeNet-5 is a very efficient convolutional neural network for handwritten character recognition. It is a small network that has 7 layers and contains basic modules of deep learning: convolutional layer, pooling layer and fully connected layer. Moreover, LeNet-5 uses average pooling and tanh activation function. However, in this project I will use max pooling and ReLU activation function. The rest of the configurations are the similar to base architecture.
 
 <h2 align="center">LeNet-5 Parameters</h1>
-<div align="center"><img src="pictures/lenet_layer" width="400"></div>
+<div align="center"><img src="pictures/lenet_layer.jpg" width="400"></div>
