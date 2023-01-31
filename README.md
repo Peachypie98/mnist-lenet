@@ -5,6 +5,7 @@
 <div align="center"><img src="pictures/mnist_data.jpg" width="400" alt="Material Bread logo"></div>
 <p align="center"> MNIST Dataset </p>
 
-## Modified LeNet-5 Architecture
-<div align="center"><img src="pictures/lenet-5.jpg" width="350"></div>
+## LeNet-5 Architecture
+<div align="center"><img src="pictures/lenet-5.jpg" width="500"></div>
+<p align="center"> Original Architecture</p>
 
