@@ -59,4 +59,4 @@ Recall that there are no trainable parameters in max-pooling layers and ReLU act
 By looking at those graphs, we can get very high accuracy in few epochs.
 
 ## Demo
-Download the code I provided to you and try run it using jupyter notebook
+Download the MNIST_LeNet-5.ipynb file I provided to you and try run it using jupyter notebook
